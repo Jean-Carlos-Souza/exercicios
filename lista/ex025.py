@@ -2,9 +2,8 @@ def media(lista):
     l = len(lista)
     print(l)
     if l % 2 == 0:
-        i = 1
-        while i <= l * 0.5:
-            i += 1
+        for i in lista(0, l/2):
+            print(i)
 
 nu = []
 num = []
