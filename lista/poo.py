@@ -44,7 +44,7 @@ class Avião(Veiculo):
     def movimentar(self):
         print('Eu voo alto')
 
-if __name__ == '__main__':
+if __name__ == '__main__': #serve para caso eu export esse arquivo para rodar esse codigo em outro arquivo, tudo que está dentro do if__name__ não será rodado no arquivo onde importei, só será rodado no arquivo que está.
     meu_veiculo = Veiculo('Gm', 'Escalade')
     meu_veiculo.movimentar()
     meu_veiculo.get_fa_modelo()
