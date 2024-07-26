@@ -1,0 +1,2 @@
+class Kasdsad:
+    pass
